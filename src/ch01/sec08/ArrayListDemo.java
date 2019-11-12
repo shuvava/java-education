@@ -29,12 +29,12 @@ public class ArrayListDemo {
         System.out.println("copiedFriends=" + copiedFriends);
         System.out.println("friends=" + friends);
 
-        //friends = new ArrayList<>(List.of("Peter", "Paul", "Mary"));
+        friends = new ArrayList<>(Arrays.asList("Peter", "Paul", "Mary"));
         String[] names = friends.toArray(new String[0]);
         System.out.println("names=" + Arrays.toString(names));
 
-        //ArrayList<String> moreFriends = new ArrayList<>(List.of(names));
-        //System.out.println("moreFriends=" + moreFriends);
+        ArrayList<String> moreFriends = new ArrayList<>(Arrays.asList(names));
+        System.out.println("moreFriends=" + moreFriends);
 
         Collections.reverse(friends);
         System.out.println("After reversing, friends=" + friends);
