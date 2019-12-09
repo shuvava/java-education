@@ -1,5 +1,4 @@
 package ch01.sec01;
-
 import java.util.Random;
 
 public class MethodDemo {
