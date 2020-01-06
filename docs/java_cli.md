@@ -27,11 +27,16 @@ If you have many JAR files, put them all in a directory and use a wildcard to in
 `java -cp .:../libs/\* com.mycompany.MainClass`
 
 ## execution
+
 ```sh
 cd <projectFolder>/src
 java ch01.sec01.HelloWorld
 ```
-## see defined classes
+
+## command to disassemble one or more class files
+
+[more info](https://docs.oracle.com/en/java/javase/12/tools/javap.html#GUID-BE20562C-912A-4F91-85CF-24909F212D7F)
+
 ```sh
 cd <projectFolder>/src
 javap ch01.sec01.HelloWorld
