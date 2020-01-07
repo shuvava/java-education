@@ -8,7 +8,7 @@
   <artifactId>parent</artifactId>
   <version>0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
-  <name>Implementation of algorithms on Java</name>
+  <name>Java Education</name>
 
   <properties>
     <java.version>13</java.version>
